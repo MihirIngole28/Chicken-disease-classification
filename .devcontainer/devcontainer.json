@@ -1,0 +1,15 @@
+{
+    "name": "My Project",
+    "image": "myingole28/abide-experiments_tensorflow_torch",
+    "runArgs": [
+      "--gpus", "all", 
+      "-v", "/mnt/:/tf/dockertest", 
+      "-w", "/tf/dockertest", 
+      "-p", "8888:8888"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [8888]
+  }
+  
